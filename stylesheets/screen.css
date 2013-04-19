@@ -1,0 +1,50 @@
+html {
+    background-color:black;
+}
+
+body {
+    output:"HD720";
+    width:1280px;
+    height:720px;
+    margin:0;
+    background-color:#98BCDA;
+}
+
+div {
+    position:absolute;
+    width:256px;
+    height:256px;
+    overflow:hidden;    
+}
+
+img {
+    width:256px;
+    height:256px;
+}
+
+.forlast_y {
+    height:208px;
+}
+
+.last_x {
+    display:none;
+}
+
+.last_y {
+   display:none;
+}
+
+.r0 { top:-256px; }
+.r1 { top:0px; }
+.r2 { top:256px; }
+.r3 { top:512px; }
+.r4 { top:768px; }
+.r5 { top:1024px; }
+
+.c0 { left:-256px; }
+.c1 { left:0px; }
+.c2 { left:256px; }
+.c3 { left:512px; }
+.c4 { left:768px; }
+.c5 { left:1024px; }
+.c6 { left:1280px; }
